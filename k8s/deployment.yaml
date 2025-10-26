@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app-go
-          image: justcgh/mts-url-shortener-app:0.1
+          image: justcgh/mts-url-shortener-app:0.2
           ports:
             - containerPort: 8080
   replicas: 3
